@@ -84,7 +84,8 @@ font-family: 'Oswald', sans-serif;
 /* descuentos */
 .descuento,
 .productos,
-.servicios{
+.servicios,
+.nosotros{
     width: 100%;
     height: auto;
     display: flex;
@@ -99,7 +100,8 @@ font-family: 'Oswald', sans-serif;
 }
 .titulo-des h2,
 .titulo-pro h2,
-.titulo-ser h2{
+.titulo-ser h2,
+.titulo-nos h2{
     font-size: 50px;
     color: red;
 
@@ -154,31 +156,46 @@ font-family: 'Oswald', sans-serif;
 }
 /* servicios*/
 
-.con-servicios{
+.con-servicios,
+.con-nosotros{
     width: 100%;
     height: auto;
 }
-.servicio1{
+.servicio1,
+.servicio2{
     width: 80%;
     height: auto;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.servicio1 img{
+.servicio1 img,
+.servicio2 img{
     width: 30%;
 }
-.servicio1 .con-texto{
+.servicio1 .con-texto,
+.servicio2 .con-texto{
     width: 50%;
     margin-left: 50px;
 }
-.servicio1 .con-texto h3{
+.servicio1 .con-texto h3,
+.servicio2 .con-texto h3,
+.con-nosotros .con-texto h2{
     font-size: 35px;
     color: rgb(89, 59, 117);
     font-weight: bold;
 }
 .servicio1 .con-texto p,
-.botones .con-texto ul{
+.servicio2 .con-texto p,
+.botones .con-texto ul,
+.con-nosotros .con-texto p{
     font-size: 20px;
     color: rgb(151, 43, 151);
+}
+/* nosotros */
+.con-nosotros{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
 }
